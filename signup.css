@@ -1,0 +1,115 @@
+*{
+    /* background-image: url(ladakh.jpg); */
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* color: red; */
+}
+header{
+    
+    width: 100%;
+    height: 17vh; 
+    /* background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)) ,url(taj3.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    height: 17vh;
+    background-color: rgb(60,60,60,0.5);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+nav .logo{
+    width: 25%;
+    text-align: center;
+}
+nav .menu{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+
+}
+nav .menu a{
+    width: 25%;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+nav .menu a:first-child{
+    color: hsla(180, 95%, 50%, 0.596);
+}
+nav .menu a:hover{
+    color: brown;
+}
+input[type=text], select {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+/* background-color: transparent; */
+}
+input[type=password], select {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+input[type=password]:focus {
+    background-color: lightpink;
+
+}
+
+input[type=submit] {
+width: 100%;
+background-color: #4CAF50;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+input[type=submit]:hover {
+background-color: #94b395;
+}
+
+#form {
+border-radius: 5px;
+background-color: #f2f2f2;
+padding: 20px;
+background-image: url(ladakh.jpg);
+}  
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+  }
+
+h2{
+    background-color: antiquewhite;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}

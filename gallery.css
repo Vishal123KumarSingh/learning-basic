@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 13vh;
+    /* background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)) ,url(taj3.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    width: 100%;
+    height: 13vh;
+    background-color: rgb(60,60,60,0.5);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+nav .logo{
+    width: 25%;
+    text-align: center;
+}
+nav .menu{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+
+}
+nav .menu a{
+    width: 25%;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+nav .menu a:nth-child(2){
+    color: hsla(180, 95%, 50%, 0.596);
+}
+nav .menu a:hover{
+    color: rgb(165, 42, 42);
+}
+.main{
+    width: 100%;
+    height: 87vh;
+    background-color: antiquewhite;
+
+}
+.main{
+    display: flex;
+
+}
+.left{
+    width: 20%;
+    background-color: rgb(157, 121, 224);
+    vertical-align: middle;
+    overflow-y: auto;
+    
+}
+.right{
+    width: 80%;
+    /* background-color: black; */
+}
+
+
+.left a {
+    background-color: rgb(180, 78, 78);
+    display: block;
+    color: white;
+    padding: 14px;
+    margin: 10px;
+    margin-right: 20pxpx;
+    text-decoration: none;
+    font-size: 23px;
+    border-radius: 20px;
+    width: 90%;
+    text-align: center;
+    justify-content: space-around;
+    -webkit-overflow-scrolling:scroll ;
+    /* margin-top: 0.938em; */
+    
+    
+  }
+
+  .left a:visited{
+      background-color: rgb(221, 114, 132);
+  }
+  .left a:hover {
+    background-color:rgb(3, 236, 236);
+    color:white;
+    text-decoration: underline;
+  }
+  .left a:link{
+      background-color: rgb(201, 91, 91);
+  }
+  .left a:active{
+      background-color: rgb(9, 169, 223);
+  }
+
+
+  

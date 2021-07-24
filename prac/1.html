@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Javascript array </h2>
+    <p>The length property provides an easy way to append new elements to an array without using the push() method.</p>
+    
+    <button onclick= "myFunction()">Try it</button>
+
+    <p id="demo"> Here is the list of Fruits.</p>
+
+
+    <script>
+        const fruit = ["Ban" , "Man" , "Appl" , "Ora"];
+        const name = ["ank" , "raj" , "naa" , "Haya"]
+        document.getElementById("demo").innerHTML = fruit;
+
+        function myFunction()
+        {
+            const total = fruit.concat(name);
+            document.getElementById("demo").innerHTML = total;
+        }
+    </script>
+</body>
+</html>

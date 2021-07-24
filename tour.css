@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+header{
+    
+    width: 100%;
+    height: 100vh; 
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)) ,url(taj3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    height: 13vh;
+    background-color: rgb(60,60,60,0.5);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+nav .logo{
+    width: 25%;
+    text-align: center;
+}
+nav .menu{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+
+}
+nav .menu a{
+    width: 25%;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+nav .menu a:first-child{
+    color: hsla(180, 95%, 50%, 0.596);
+}
+nav .menu a:hover{
+    color: brown;
+}
+.dropbtn {
+    /* display: inline-block; */
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+main{
+    width: 100%;
+    height: 87vh;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+section{
+
+}
+section h3{
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 2px rgb(189, 159, 61);
+    color: antiquewhite;
+
+}
+section h1{
+    font-size: 40px;
+    font-weight: 500;
+    text-shadow: 2px 2px 2px black;
+    color: rgb(167, 66, 136);
+    margin: 20px 0 15px 0;
+}
+section p{
+    font-size: 25px;
+    word-spacing: 2px;
+    margin-bottom: 15px;
+}
+section a{
+    padding: 12px 13px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+section .btnone{
+    background-color: rgb(242, 248, 248);
+}
+section .btntwo{
+    background-color: rgb(26, 177, 177);
+}
+.change_content:after{
+    content: '';
+    animation: change 20s infinite linear ;
+    color: aquamarine;
+}
+@keyframes change{
+    0%{
+        content:" Kolkata";
+
+    }
+    20%{
+        content: " Delhi";
+    }
+    40%{
+        content: " Mumbai";
+    }
+    60%{
+        content: " Agra";
+    }
+    80%{
+        content: " Gujarat";
+    }
+    100%{
+        content: " kerla";
+    }
+}
+.change : after{
+    /* background-image: url(''); */
+    animation: change_image 20s infinite linear;
+}
+
+@keyframe change_image {
+    0%{
+        ba
+ 
+    }
+    20%{
+        
+    }
+    40%{}
+    60%{}
+    80%{}
+    100%{}
+
+}
+
+/* img{
+    width: 100%;
+    height: 100%;
+} */
+
+.foot{
+    height: 300px;
+}
